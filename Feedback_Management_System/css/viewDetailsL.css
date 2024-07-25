@@ -1,0 +1,162 @@
+body {
+    background: url('/Feedback_Management_System/logo/new.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}/* Custom CSS */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100%;
+    width: 250px;
+    background-color: #5aaaf9;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar-sticky {
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+}
+
+.submenu li {
+    padding-left: 30px;
+}
+
+.sidebar .btn {
+    width: 100%;
+    text-align: left;
+}
+
+/* Style for the close button */
+#sidebarClose {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+}
+
+#sidebarClose:hover {
+    background-color: #d54040;
+}
+
+#sidebarClose i {
+    margin-right: 10px;
+}
+
+/* Style for the submenu items */
+.submenu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #adb5bd;
+}
+
+.submenu a:hover {
+    color: #fff;
+    background-color: #19f327;
+}
+
+/* Style for carousel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(97, 97, 97, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+
+.carousel-caption h5 {
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    margin-bottom: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Alignment of table content */
+td {
+    vertical-align: middle;
+}
+
+/* Adjusting font size and weight */
+th, td {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Adding some spacing between cells */
+td {
+    padding: 12px;
+}
+
+/* Styling the table header */
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Adding a border radius to the first and last rows */
+tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
